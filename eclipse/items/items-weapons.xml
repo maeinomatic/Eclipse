@@ -11,7 +11,7 @@
 	
 	<!-- simple -->
         
-		<element name="Scorching Cleaver" type="Magic Item" source="own-custom" id="ID_SCORCHING_CLEAVER">
+		<element name="Scorching Cleaver" type="Magic Item" source="eclipse" id="ID_SCORCHING_CLEAVER">
 		<description>
 			<p>You gain a +2 bonus to attack rolls made with this magic weapon.</p>
 			<p class="indent"><strong><em>Erupting Slash.</em></strong> As an action, you can expend 3 or more of the weapon's charges to slash the air in front you. 
