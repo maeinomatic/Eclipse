@@ -46,7 +46,7 @@
 		</setters>
 	</element>
 
-<element name="Sharkrazor Mantle" type="Magic Item" source="Dungeon Master’s Guide" id="ID_ECL_Sharkrazor Mantle">
+<element name="Sharkrazor Mantle" type="Magic Item" source="eclipse" id="ID_ECL_Sharkrazor_Mantle">
 		<description>
 			
 			<p>You have a swimming speed of 60 feet and can breathe underwater while you wear this shark-skinned cloak. If a creature successfully grapples or restrains you by touching you, that creature takes 1d4 piercing damage upon that success and again at the end of each of its subsequent turns while it continues to physically hold you.</p>
