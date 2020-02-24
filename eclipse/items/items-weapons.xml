@@ -33,5 +33,21 @@
 		</setters>
 	</element>
         
+	<element name="Harp of Valor" type="Magic Item" source="eclipse" id="ID_ECL_Harp_of_Valor">
+		<description>
+			<p>This elegant bow has 10 strings and can be used as a harp and spellcasting focus. You are proficient with harps while attuned to this weapon, and Charisma (Performance) checks made using the bow as a harp are made with advantage. You have a +2 bonus to damage rolls on ranged weapon attacks made with this magic weapon, and arrows fired from the bow deal thunder damage instead of piercing. In addition, the bow has 10 charges and regains I d6+4 charges each day at dawn. You can expend I to 5 of its charges as an action to cast either "thunderwave" or "magic missile" at a spell level equal to the number of charges you expend using your spellcasting modifier and spell save DC. </p>
+		</description>
+		<setters>
+			<set name="keywords">shortbow, harp, momo, ranged, charges</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="longbow">Weapon</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Shortbow</set>
+		</setters>
+	</element>
+	
    	
 </elements>
