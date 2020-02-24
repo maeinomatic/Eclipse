@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wondrous Items</name>
+		<description></description>
+<author>maeinomatic</author>
+		<update version="0.0.1">
+			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-wondrous.xml" />
+		</update>
+</info>
+
+
+
+
+<element name="Necrolace" type="Magic Item" source="own-custom" id="ID_Necrolace">
+		<description>
+			<p>While attuned to this delicate necklace, you absorb portions of the fallen spirits of the creatures you slay. When you reduce a Small or larger creature who is hostile toward you to 0 hit points, the necklace emits a faint glow and gains a charge. The necklace can hold up to 3 charges, and when found already contains 1d3 charges. As a bonus action on your turn, you can expend any number of held charges to release the souls and harness their energies to turn death into life. For each charge you use, you suffer 1d8 necrotic damage, and another creature you can see within 30 feet of you regains twice the amount of health that you lost. Damage you receive in this way cannot be reduced by any means. Being reduced to 0 hit points from the necrotic damage dealt to yourself renders you unconscious, but stable, and heals the other creature for twice the amount of hit points you had remaining when you used the necrolace.</p>
+		</description>
+		<setters>
+			<set name="keywords">necro, momo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+
+<element name="Glove of the Aegis" type="Magic Item" source="own-custom" id="ID_GLOVE_OF_THE_AEGIS">
+		<description>
+			<p>This glove holds 5 charges and recharges 1d4+1 expended charges each day at dawn. When a target that you can see hits you with an attack, you can use your reaction to expend any number of the glove's charges. For each charge used in this way you can add +2 to your AC for the attack, potentially causing it to miss. You can use this ability after the attack has been made but before any damage has been calculated.</p> 
+<p>The glove's power cannot be used if you are already wielding a shield.</p>
+		</description>
+		<setters>
+			<set name="keywords">glove, aegis, reaction, momo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">hands</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+
+
+
+
+
+</elements>
