@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Staffs from Eclipse campaign</name>
+		<description>5E Homebrew weapons from Eclipse campaign</description>
+		<author> maeinomatic </author>
+		<update version="0.0.1">
+			<file name="items-staffs.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-staffs.xml" />
+		</update>
+	</info>
+	<element name="Staff of Position-Swap" type="Magic Item" source="own-custom" id="ID_STAFF_OF_POSITIONSWAP">
+		<description>
+      <p>This Staff has 4 charges and regains 1d4 charges at dawm every day.</p>
+			<p>You can  speak this staff’s command word while pointing it at a target creature. If the target is within 60ft range you and the target swap positions.</p>
+			</description>
+		<setters>
+			<set name="keywords">cleric, druid, warlock, custom, momo</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="type">Staff</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Rare</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+		</setters>
+	</element>
+	
+</elements>
