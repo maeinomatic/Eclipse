@@ -6,7 +6,7 @@ Additional content from custom campaign to extend [Aurora](http://www.aurorabuil
 ### Extending Content
 Go to the _Additional Content_ tab in Aurora, enter the URL of the index file, and have Aurora download the content to the custom folder for you.
 
-"https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse.index"
+https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse.index
 
 ### Content Request
 You can request content by creating an issue with the request.
