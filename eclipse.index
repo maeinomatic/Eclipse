@@ -23,8 +23,8 @@
 		
 		<!-- Items -->
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-weapons.xml" />
-		<file name="items-staffs.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-staffs.xml"/>
-		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-wondrous.xml"/>				    
+		<file name="items-staffs.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-staffs.xml" />
+		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-wondrous.xml" />				    
 		<!-- Sources -->
 		<file name="sources.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/sources.xml" />
 		
