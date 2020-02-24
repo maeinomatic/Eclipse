@@ -63,7 +63,7 @@
 			<set name="attunement">true</set>
 			<set name="rarity">Rare</set>
 		</setters>
-
+	</element>
 
 
 </elements>
