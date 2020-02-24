@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons from eclipse campaign</name>
-        <description>5E Homebrew weapons from D&amp;D Wiki</description>
+        <description>5E Homebrew weapons from Eclipse campaign</description>
         <author>maeinomatic</author>
         <update version="0.0.1">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-weapons.xml" />
