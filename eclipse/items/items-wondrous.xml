@@ -77,7 +77,6 @@
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="slot">neck</set>
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>
@@ -97,7 +96,6 @@
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="slot">neck</set>
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>
