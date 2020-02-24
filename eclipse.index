@@ -25,6 +25,7 @@
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-weapons.xml" />
 
 		<!-- Sources -->
+		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/sources.xml" />
 		
 	</files>
 </index>
