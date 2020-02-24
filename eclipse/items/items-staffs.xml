@@ -8,7 +8,7 @@
 			<file name="items-staffs.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-staffs.xml" />
 		</update>
 	</info>
-	<element name="Staff of Position-Swap" type="Magic Item" source="Eclipse" id="ID_STAFF_OF_POSITIONSWAPX">
+	<element name="Staff of Position-Swap" type="Magic Item" source="Eclipse" id="ID_STAFF_OF_POSITIONSWAP">
 		<description>
       <p>This Staff has 4 charges and regains 1d4 charges at dawm every day.</p>
 			<p>You can  speak this staff’s command word while pointing it at a target creature. If the target is within 60ft range you and the target swap positions.</p>
