@@ -7,10 +7,10 @@
 	</info>
 	<element name="Eclipse" type="Source" source="Eclipse" id="ID_HOMEBREW_SOURCE_ECLIPSE">
 		<description>
-			<![CDATA[<p></p>]]>
+			<![CDATA[<p>Eclipse</p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">Eclipse</set>
+			<set name="abbreviation">ECLIPSE</set>
 			<set name="author">maeinomatic</set>
 			<set name="homebrew">true</set>
 		</setters>
