@@ -22,7 +22,8 @@
 		<!-- Spells -->
 		
 		<!-- Items -->
-		
+		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-weapons.xml" />
+
 		<!-- Sources -->
 		
 	</files>
