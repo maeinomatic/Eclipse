@@ -10,8 +10,7 @@
 			<![CDATA[<p></p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">WIKI</set>
-			<set name="url">https://www.dandwiki.com/wiki/</set>
+			<set name="abbreviation">Eclipse</set>
 			<set name="author">maeinomatic</set>
 			<set name="homebrew">true</set>
 		</setters>
