@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/dndwiki/sources.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/sources.xml" />
 		</update>
 	</info>
 	<element name="Eclipse" type="Source" source="Eclipse" id="ID_HOMEBREW_SOURCE_ECLIPSE">
