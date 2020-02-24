@@ -54,7 +54,7 @@
 			<p><strong><em>Curse.</em></strong> This cloak amplifies and sweetens the scent of blood to the point of distraction. Attuning to the cloak curses you until you're targeted by the remove curse spell or similar magic: removing the cloak fails to end the curse. While cursed, if you're within 60 feet of another creature that's below its hit point maximum, any attack you make against a creature who has all of its hit points, as well as any Wisdom (Perception) check you make, is made with with disadvantage. This effect only applies if the creature below its hit point maximum is neither a construct, plant, or undead creature.</p>
 		</description>
 		<setters>
-			<set name="keywords">saving throw</set>
+			<set name="keywords">mantle, momo</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
@@ -62,6 +62,25 @@
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+<element name="Charming pink runechalk" type="Magic Item" source="eclipse" id="ID_ECL_pink_runechalk">
+		<description>
+			<p>Chalk One Up: As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 6 to draw these symbols. You can draw up to 20 symbols with this chalk before it is completely used up. </p>
+			<p>Square:</p> tunes and repairs instruments.
+			<p>Circle When standing in the circle any music you play or vocal sounds you make sound three times as loud. :</p>
+			<p>Triangle: Dramatic lighting fills a 10ft, increases any Charisma (Performance) checks by 3. </p>
+			<p>Cross: Casts a small display of Prestidigitation fireworks when stepped on by any creature. </p> 
+		</description>
+		<setters>
+			<set name="keywords">chalk, momo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
 
