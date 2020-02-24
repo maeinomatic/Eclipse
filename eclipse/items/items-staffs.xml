@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Staffs from Eclipse campaign</name>
-		<description>5E Homebrew weapons from Eclipse campaign</description>
+		<description>5E Homebrew staffs from Eclipse campaign</description>
 		<author> maeinomatic </author>
 		<update version="0.0.1">
 			<file name="items-staffs.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-staffs.xml" />
