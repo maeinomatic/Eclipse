@@ -1,0 +1,2 @@
+# Eclipse
+custom aurora repository
