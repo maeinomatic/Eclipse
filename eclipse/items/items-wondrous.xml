@@ -86,18 +86,25 @@
 <element name="Spellwoven Robes" type="Magic Item" source="eclipse" id="ID_ECL_Spellwoven_Robes">
 		<description>
 			
-			<p>These robes are unique to the wearer and are spun from special, magic-sensitive threads. While wearing these robes, you gain an additional way to calculate your AC. Your AC equals 17. Whenever you cast a spell of first level or higher, you can also change the apparent style, color, and apparent material of the robe. Regardless of its appearance, it is always a robe and its weight remains the same. Glowing, arcane glyphs appear on the robe's fabric when you cast a spell before fading away a moment later. </p>
+			<p>These robes are unique to the wearer and are spun from special, magic-sensitive threads. While wearing these robes, your AC equals 17. Whenever you cast a spell of first level or higher, you can also change the apparent style, color, and apparent material of the robe. Regardless of its appearance, it is always a robe and its weight remains the same. Glowing, arcane glyphs appear on the robe's fabric when you cast a spell before fading away a moment later. </p>
 			</description>
 		<setters>
 			<set name="keywords">mantle, momo</set>
-			<set name="category">Wondrous Items</set>
+			<set name="category">Armor</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="slot">shoulders</set>
-			<set name="type">Wondrous Item</set>
+			<set name="slot">body</set>
+			<set name="armorClass">17</set>
+			<set name="type">Armor</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Rare</set>
+			<set name="armor">Light</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
 		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="17" />
+		</rules>
+	
 	</element>	
 	
 	
@@ -143,7 +150,7 @@
 <element name="Shared Burden" type="Magic Item" source="eclipse" id="ID_ECL_SHARED_BURDEN">
 		<description>
 			<p>This set of chained rings and bracers is a sign of the pact you forged with your patron. When you attune to the item, the small spikes that line the inside of the bands become harmless and feel like a warm, gentle caress against your skin. Once attuned, you can also use it as a spellcasting focus. </p> 
-<p>Whenever you would deal damage to a creature with a warlock spell or cantrip, you can choose to add your Charisma modifier (minimum 1) to the spell's damage. When you do, you take psychic damage equal to half your Charisma modifier (minimum 1), rounded up. This psychic damage ignores resistances and immunities.</p>
+			<p>Whenever you would deal damage to a creature with a warlock spell or cantrip, you can choose to add your Charisma modifier (minimum 1) to the spell's damage. When you do, you take psychic damage equal to half your Charisma modifier (minimum 1), rounded up. This psychic damage ignores resistances and immunities.</p>
 		</description>
 		<setters>
 			<set name="keywords">glove, warlock, momo</set>
@@ -157,5 +164,35 @@
 		</setters>
 	</element>
 	
+	<element name="Book of Fedias" type="Magic Item" source="eclipse" id="ID_ECL_BOOK_OF_FEDIAS">
+		<description>
+			<p>A magical book describing the life and ascension of the god Electrolux. </p>
+			<p>The book is magically infused with the power to grant one temporary Warlock Spellslot.Once per day you can spend 1 hour reading this book, roll a d20 against your own spellcasting saving throw DC, if you succeed you gain one additional Warlock spellslot for up to 24 hours. </p>
+		</description>
+		<setters>
+			<set name="keywords">book, warlock, electrolux, fedias, momo</set>
+			<set name="category">Wondrous Items</set>			
+			<set name="type">Wondrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+			<set name="rarity">Unique</set>
+		</setters>
+	</element>
+	
+		<element name="Kors mask" type="Item" source="eclipse" id="ID_ECL_KORS_MASK">
+		<description>
+			<p> A mask work by Kors to hide his skin.</p>
+			<p>wearing the mask grants you a +1 bonus to Deception. </p>
+		</description>
+		<setters>
+			<set name="keywords">mask, kors, deception, momo</set>
+			<set name="category">Wondrous Item</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="stackable">true</set>
+			<set name="slot">face</set>
+		<rules>
+			<stat name="deception:passive" value="1" />
+		</rules>
 
 </elements>
