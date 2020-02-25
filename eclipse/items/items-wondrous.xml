@@ -180,7 +180,7 @@
 		</setters>
 	</element>
 	
-		<element name="Kors mask" type="Item" source="eclipse" id="ID_ECL_KORS_MASK">
+	<element name="Kors mask" type="Item" source="eclipse" id="ID_ECL_KORS_MASK">
 		<description>
 			<p> A mask work by Kors to hide his skin.</p>
 			<p>wearing the mask grants you a +1 bonus to Deception. </p>
@@ -191,8 +191,10 @@
 			<set name="cost" currency="gp">25</set>
 			<set name="stackable">true</set>
 			<set name="slot">face</set>
+		</setters>
 		<rules>
 			<stat name="deception:passive" value="1" />
 		</rules>
-
+	</element>
+	
 </elements>
