@@ -4,7 +4,7 @@
 		<name>Wondrous Items</name>
 		<description>Homebrew Wondrous Items from Eclipse campaign</description>
 <author>maeinomatic</author>
-		<update version="0.0.2.0">
+		<update version="0.0.2.1">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-wondrous.xml" />
 		</update>
 </info>
