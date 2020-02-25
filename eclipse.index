@@ -4,7 +4,7 @@
 		<name>eclipse</name>
 		<description>The 5e homebrew content from the eclipse campaign.</description>
 		<author>maeinomatic</author>
-		<update version="0.0.1">
+		<update version="0.0.2.0">
 			<file name="eclipse.index" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse.index" />
 		</update>
 	</info>
