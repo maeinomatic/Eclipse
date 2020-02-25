@@ -15,7 +15,7 @@
 			</description>
 		<setters>
 			<set name="keywords">cleric, druid, warlock, custom, momo</set>
-			<set name="category">Staffs</set>
+			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="4">4 lb.</set>
 			<set name="type">Staff</set>
@@ -23,6 +23,23 @@
 			<set name="rarity">Rare</set>
 			<set name="slot">onehand</set>
 			<set name="weapon">Quarterstaff</set>
+		</setters>
+	</element>
+	
+	<element name="Skypirate Trident" type="Magic Item" source="eclipse" id="ID_ECL_SKYPIRATE_TRIDENT">
+		<description>
+			<p>Expend one Spellslot up to level 4 and choose one of your known spells. You can cast the spell from the trident once (on the chosen spellslot level) without expending a spellslot.</p>
+			</description>
+		<setters>
+			<set name="keywords">sorcerer, wizard, druid, warlock, custom, momo</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="type">Staff</set>
+			<set name="attunement">true</set>
+			<set name="rarity">RARE</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Trident</set>
 		</setters>
 	</element>
 	
