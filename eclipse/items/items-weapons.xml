@@ -55,7 +55,7 @@
 	
 	<element name="Splintershot" type="Magic Item" source="eclipse" id="ID_ECL_Splintershot">
 		<description>
-			<p>This shortbow can cause a nonmagical nocked arrow to magically shatter and unleash a devastating spray of shrapnel. On your turn, you can use an action to force creatures within a 1 5 foot cone to make a DC 1 5 Dexterity saving throw. On a failed save, creatures within the cone take 2d6 magical piercing damage from the splintered shrapnel, or 3d6 if it was within 5 feet of you. This ability destroys the arrow used when creating the spray. </p>
+			<p>This shortbow can cause a nonmagical nocked arrow to magically shatter and unleash a devastating spray of shrapnel. On your turn, you can use an action to force creatures within a 1 5 foot cone to make a DC 1 5 Dexterity saving throw. On a failed save, creatures within the cone take 2d6 magical piercing damage + your attack modifier from the splintered shrapnel, or 3d6 + your attack modifier if it was within 5 feet of you. This ability destroys the arrow used when creating the spray. </p>
 		</description>
 		<setters>
 			<set name="keywords">shortbow, saving throw, momo, ranged, </set>
