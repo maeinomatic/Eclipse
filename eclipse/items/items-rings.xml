@@ -38,7 +38,7 @@
 			<set name="category">Rings</set>
 			<set name="type">Ring</set>
 			<set name="slot">ring</set>
-			<set name="rarity">Very Rare</set>
+			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
 	
