@@ -42,9 +42,24 @@
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="enhancement">2</set>
-			<set name="type" addition="longbow">Weapon</set>
+			<set name="type" addition="shortbow">Weapon</set>
 			<set name="attunement" addition="by a bard">true</set>
 			<set name="rarity">Very Rare</set>
+			<set name="weapon">Shortbow</set>
+		</setters>
+	</element>
+	
+	<element name="Splintershot" type="Magic Item" source="eclipse" id="ID_ECL_Splintershot">
+		<description>
+			<p>This shortbow can cause a nonmagical nocked arrow to magically shatter and unleash a devastating spray of shrapnel. On your turn, you can use an action to force creatures within a 1 5 foot cone to make a DC 1 5 Dexterity saving throw. On a failed save, creatures within the cone take 2d6 magical piercing damage from the splintered shrapnel, or 3d6 if it was within 5 feet of you. This ability destroys the arrow used when creating the spray. </p>
+		</description>
+		<setters>
+			<set name="keywords">shortbow, saving throw, momo, ranged, </set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shortbow">Weapon</set>
+			<set name="attunement" >false</set>
+			<set name="rarity">Rare</set>
 			<set name="weapon">Shortbow</set>
 		</setters>
 	</element>
