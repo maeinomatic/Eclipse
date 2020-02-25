@@ -28,6 +28,23 @@
 		</setters>
 	</element>
 
+<element name="Kors Pendant" type="Magic Item" source="eclipse" id="ID_ECL_KORS_PENDANT">
+		<description>
+			<p>While attuned to this pendant you gain 1 additional metamagic point and can one use metamagic from the Sorcerer class. </p>
+		</description>
+		<setters>
+			<set name="keywords">pendant, kors, momo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>	
+	
+	
 
 <element name="Glove of the Aegis" type="Magic Item" source="eclipse" id="ID_GLOVE_OF_THE_AEGIS">
 		<description>
