@@ -22,6 +22,7 @@
 		<!-- Spells -->
 		
 		<!-- Items -->
+		<file name="items-rings.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-rings.xml" />
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-weapons.xml" />
 		<file name="items-staffs.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-staffs.xml" />
 		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-wondrous.xml" />				    
