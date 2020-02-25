@@ -14,6 +14,9 @@
 		<element name="Scorching Cleaver" type="Magic Item" source="eclipse" id="ID_SCORCHING_CLEAVER">
 		<description>
 			<p>You gain a +2 bonus to attack rolls made with this magic weapon.</p>
+			
+			<p>The battleaxe holds up to 8 charges and regains 1d8 expended charges each day at dawn. As long as there is at least 1 charge remaining, attacks made with it deal an extra 1d8 fire damage to any target it hits, and the battleaxe regains 3 expended charges each time you roll a 20 on an attack roll with it. </p>
+			
 			<p class="indent"><strong><em>Erupting Slash.</em></strong> As an action, you can expend 3 or more of the weapon's charges to slash the air in front you. 
 			When you do, a line of flame 5 feet wide and 30 feet long erupts from the blade. 
 			Each creature in the line must succeed on a Dexterity saving throw or take fire damage equal to 1d6 per charge spent. 
@@ -21,7 +24,8 @@
 			The DC for this saving throw is equal to 8 + your proficiency bonus + the number of charges spent. Any flammable object caught in the blaze that isn't being worn or carried is ignited.</p>
 			
 		</description>
-		<setters>
+		<setters>	
+			<set name="charges">8</set>
 			<set name="keywords">greatsword</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
@@ -63,6 +67,28 @@
 			<set name="weapon">Shortbow</set>
 		</setters>
 	</element>
+	
+	
+	<element name="Gyros Hammer" type="Magic Item" source="eclipse" id="ID_ECL_GYROS_HAMMER">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p>The 1d8 fire </p>
+			<p>You can cast fabricate once per short rest. </p>
+		</description>
+		<setters>
+			<set name="keywords">maul</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="maul">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_MAULS</set>
+		</setters>
+		
+	</element>
+	
+	
 	
    	
 </elements>
