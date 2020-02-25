@@ -187,7 +187,7 @@
 		</description>
 		<setters>
 			<set name="keywords">mask, kors, deception, momo</set>
-			<set name="category">Wondrous Item</set>
+			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">25</set>
 			<set name="stackable">true</set>
 			<set name="slot">face</set>
