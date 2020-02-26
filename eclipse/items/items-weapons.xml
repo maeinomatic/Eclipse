@@ -36,6 +36,9 @@
 			<set name="attunement">true</set>
 			<set name="enhancement">2</set>
 			<set name="weapon">Greatsword</set>
+			<set name="damage" type="slashing">2d6</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD</set>
 		</setters>
 	</element>
         
@@ -52,6 +55,9 @@
 			<set name="attunement" addition="by a bard">true</set>
 			<set name="rarity">Very Rare</set>
 			<set name="weapon">Shortbow</set>
+			<set name="range">80/320</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW</set>
 		</setters>
 	</element>
 	
@@ -67,6 +73,9 @@
 			<set name="attunement" >false</set>
 			<set name="rarity">Rare</set>
 			<set name="weapon">Shortbow</set>
+			<set name="range">80/320</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW</set>
 		</setters>
 	</element>
 	
@@ -93,7 +102,7 @@
 	<element name="Katana" type="Magic Item" source="eclipse" id="ID_ECL_KATANA">
 		<description>
 			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
-			</description>
+		</description>
 		<setters>
 			<set name="keywords">sword, katana, eclipse, hilang, momo</set>
 			<set name="category">Magic Weapons</set>
@@ -102,9 +111,29 @@
 			<set name="attunement">true</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
-			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
 		</setters>
 	</element>
+	
+	<element name="Serpent Sword" type="Magic Item" source="eclipse" id="ID_ECL_SERPENT_SWORD">
+		<description>	
+			<p class="indent">TODO: everything, attack bonus? effects? </p>
+		</description>
+		<setters>
+			<set name="keywords">rapier, serpent, eclipse, slim, momo</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+		</setters>
+	</element>
+	
 	
 	
    	
