@@ -90,6 +90,21 @@
 		
 	</element>
 	
+	<element name="Katana" type="Magic Item" source="eclipse" id="ID_ECL_KATANA">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			</description>
+		<setters>
+			<set name="keywords">sword, katana, eclipse, hilang, momo</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="katana">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+		</setters>
+	</element>
 	
 	
    	
