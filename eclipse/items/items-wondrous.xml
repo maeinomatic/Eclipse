@@ -92,7 +92,7 @@
 			<set name="keywords">mantle, momo</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="2">2 lb.</set>
 			<set name="slot">shoulders</set>
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">true</set>
@@ -109,7 +109,7 @@
 			<set name="keywords">mantle, momo</set>
 			<set name="category">Armor</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="2">2 lb.</set>
 			<set name="slot">body</set>
 			<set name="armorClass">17</set>
 			<set name="type">Armor</set>
@@ -173,7 +173,7 @@
 			<set name="keywords">glove, warlock, momo</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="1">1 lb.</set>
 			<set name="slot">hands</set>
 			<set name="type">Wondrous Item</set>
 			<set name="attunement" addition="by a warlock">true</set>
@@ -187,7 +187,7 @@
 			<p>The book is magically infused with the power to grant one temporary Warlock Spellslot.Once per day you can spend 1 hour reading this book, roll a d20 against your own spellcasting saving throw DC, if you succeed you gain one additional Warlock spellslot for up to 24 hours. </p>
 		</description>
 		<setters>
-			<set name="keywords">book, warlock, electrolux, fedias, momo</set>
+			<set name="keywords">book, warlock, electrolux, wulin, fedias, momo</set>
 			<set name="category">Wondrous Items</set>			
 			<set name="type">Wondrous Item</set>
 			<set name="cost" currency="gp">0</set>
@@ -199,18 +199,40 @@
 	
 	<element name="Kors mask" type="Item" source="eclipse" id="ID_ECL_KORS_MASK">
 		<description>
+			<p class="indent">TODO:make equippable </p>
 			<p> A mask work by Kors to hide his skin.</p>
 			<p>wearing the mask grants you a +1 bonus to Deception. </p>
 		</description>
 		<setters>
 			<set name="keywords">mask, kors, deception, momo</set>
 			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="weight" lb="2">2 lb.</set>
 			<set name="cost" currency="gp">25</set>
-			<set name="slot">head</set>
+			<set name="slot">neck</set>
 		</setters>
 		<rules>
 			<stat name="deception:passive" value="1" />
 		</rules>
 	</element>
+	
+	<element name="Hilangs magical Quiver" type="Magic Item" source="eclipse" id="ID_ECL_HILANGS_MAGICAL_QUIVER">
+		<description>
+			<p class="indent">TODO:what kind of arrows? </p>
+			<p>hold the quiver into salt water once per day for 10 minutes to produce 1d8+1 magical arrows or bolts.</p> 
+			<p>The quiver can hold up to 24 arrows or bolts. </p>
+			<p class="indent">You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.</p>
+		</description>
+		<setters>
+			<set name="keywords">ammunition</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	
+	
 	
 </elements>
