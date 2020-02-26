@@ -30,7 +30,7 @@
 
 <element name="Kors Pendant" type="Magic Item" source="eclipse" id="ID_ECL_KORS_PENDANT">
 		<description>
-			<p>While attuned to this pendant you gain 1 additional metamagic point and can one use metamagic from the Sorcerer class. </p>
+			<p>While attuned to this pendant you gain 1 additional metamagic point and can use one metamagic from the Sorcerer class. </p>
 		</description>
 		<setters>
 			<set name="keywords">pendant, kors, momo</set>
