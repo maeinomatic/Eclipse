@@ -15,7 +15,9 @@
 		<description>
 			<p>You gain a +2 bonus to attack rolls made with this magic weapon.</p>
 			
-			<p>The battleaxe holds up to 8 charges and regains 1d8 expended charges each day at dawn. As long as there is at least 1 charge remaining, attacks made with it deal an extra 1d8 fire damage to any target it hits, and the battleaxe regains 3 expended charges each time you roll a 20 on an attack roll with it. </p>
+			<p>The greatsword holds up to 8 charges and regains 1d8 expended charges each day at dawn. </p>
+			<p>As long as there is at least 1 charge remaining, attacks made with it deal an extra 1d8 fire damage to any target it hits. </p> 
+			<p>The greatsword regains 3 expended charges each time you roll a 20 on an attack roll with it. </p>
 			
 			<p class="indent"><strong><em>Erupting Slash.</em></strong> As an action, you can expend 3 or more of the weapon's charges to slash the air in front you. 
 			When you do, a line of flame 5 feet wide and 30 feet long erupts from the blade. 
@@ -30,7 +32,7 @@
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="greatsword">Weapon</set>
-			<set name="rarity">Rare</set>
+			<set name="rarity">Unique</set>
 			<set name="attunement">true</set>
 			<set name="enhancement">2</set>
 			<set name="weapon">Greatsword</set>
@@ -72,15 +74,15 @@
 	<element name="Gyros Hammer" type="Magic Item" source="eclipse" id="ID_ECL_GYROS_HAMMER">
 		<description>
 			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
-			<p>The 1d8 fire </p>
+			<p>The Weapon deals an additional 1d8 fire damage</p>
 			<p>You can cast fabricate once per short rest. </p>
 		</description>
 		<setters>
-			<set name="keywords">maul</set>
+			<set name="keywords">maul, fire, momo, gyro, bobo, hammer</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="maul">Weapon</set>
-			<set name="rarity">Very Rare</set>
+			<set name="rarity">Unique</set>
 			<set name="attunement">true</set>
 			<set name="enhancement">1</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_MAULS</set>
