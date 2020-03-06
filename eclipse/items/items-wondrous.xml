@@ -212,7 +212,9 @@
 			<set name="slot">neck</set>
 		</setters>
 		<rules>
-			<stat name="deception:passive" value="1" />
+			<stat name="deception:misc" value="1" />
+			<!-- <stat name="stealth:misc" value="10" /> -->
+			
 		</rules>
 	</element>
 	
