@@ -256,4 +256,24 @@
 		</rules>
 	</element>
 	
+	<element name="Shoes of Waterwalking" type="Magic Item" source="eclipse" id="ID_ECL_SHOES_OF_WATERWALKING">
+		<description>
+			<p>TODO: Everything.</p>
+			<p>Worn by Slim. </p>  
+		</description>
+		<setters>
+			<set name="keywords">shoe, water, momo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">feet</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	
+	
+	
+	
 </elements>
