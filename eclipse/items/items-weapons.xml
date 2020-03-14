@@ -4,7 +4,7 @@
 		<name>Weapons</name>
         <description>5E Homebrew weapons from Eclipse campaign</description>
         <author>maeinomatic</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/maeinomatic/elements-eclipse/master/eclipse/items/items-weapons.xml" />
         </update>
         </info>
