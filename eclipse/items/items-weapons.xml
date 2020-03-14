@@ -137,7 +137,7 @@
 	<element name="Wind Saber Veela" type="Magic Item" source="eclipse" id="ID_ECL_WIND_SABER_VEELA">
 		<description>	
 			<p> This Saber is connected to the Archfey Veela. </p>
-			<p class="indent"><strong><em>Magically Light.</em></strong>This sword has been enchanted to feel lighter than it ought to be. At such it constitutes a light weapon with the finesse property. This weapons power can be used after taking a pact with Veela. The sword deals 1d8 slashing damage along with all necessary modifiers on a successful atack. Damage dealt by the sword counts as magical damage. </p>
+			<p class="indent"><strong><em>Magically Light.</em></strong>This sword has been enchanted to feel lighter than it ought to be. At such it constitutes a light weapon with the finesse property. This weapons power can be used after taking a pact with Veela. The sword deals 1d8 slashing damage + your Charisma modifer on a successful atack. Damage dealt by the sword counts as magical damage. </p>
 			<p class="indent"><strong><em>Ranged Melee.</em></strong>The sword allows its wielder to slash distant enemies. Its cut is carried on a magical wind and can connect with an enemy that is too far away to be physically touched by the blade.  </p>
 			<p>To use this property against a creature, make a ranged attack. Since the attack is magical, you may make the attack roll using either Dexterity or Stregth. The sword range is 60/100. The creature must be in a straight line from you. If any obstacle lies between you and the creature you are attacking, your attack instead impacts the obstacle. </p>
 			<p> 1/day if you can smite, you can use your smite whe using Ranged Melee.  </p>
