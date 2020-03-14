@@ -148,8 +148,8 @@
 		<setters>
 			<set name="keywords">rapier, wind, saber, veela, eclipse, warlock, griffith, momo</set>
 			<set name="category">Magic Weapons</set>
-			
 			<set name="keywords">Rapier</set>
+			<set name="weapon">Rapier</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="rapier">Weapon</set>
 			<set name="attunement" addition="by a warlock">true</set>
