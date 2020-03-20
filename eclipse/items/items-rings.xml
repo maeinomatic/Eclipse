@@ -23,7 +23,7 @@
 			<set name="rarity">Very Rare</set>
 		</setters>
 	 	 <rules>
-			<stat name="strength" value="2" />
+			<stat name="constitution" value="2" />
 		</rules>
 	</element>
 	
